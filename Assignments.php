@@ -19,3 +19,6 @@ include_once 'head.php';
         ?>
     </article>
 </article>
+<?php
+include_once "footer.php";
+?>
