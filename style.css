@@ -1,0 +1,101 @@
+
+* {
+    font-family: 'Consolas', monospace;
+    color: white;
+    background-color: #333;
+}
+p{
+    background-color: #544040;
+}
+h1 {
+    text-align: center;
+}
+
+.navbar {
+    border-radius: 120px;
+    background: #544040;
+    box-shadow:  41px 41px 100px #4d3b3b,
+                 -41px -41px 100px #5b4545;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 10px;
+}
+
+.navbar ul {
+    border-radius: 120px;
+    background: #544040;
+    box-shadow:  41px 41px 100px #4d3b3b,
+                 -41px -41px 100px #5b4545;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li {
+    border-radius: 120px;
+    background: #544040;
+    box-shadow:  41px 41px 100px #4d3b3b,
+                 -41px -41px 100px #5b4545;
+    margin: 0 10px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.navbar a {
+    border-radius: 120px;
+    background: #544040;
+    box-shadow:  41px 41px 100px #4d3b3b,
+                 -41px -41px 100px #5b4545;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 120px;
+}
+
+.paragraphs {
+    border-radius: 20px;
+    background: #544040;
+    box-shadow: 41px 41px 82px #221a1a, -41px -41px 82px #866666;
+    padding: 20px;
+    margin: 20px;
+}
+
+.ps {
+    border-radius: 20px;
+    background: #544040;
+    box-shadow: 41px 41px 82px #221a1a, -41px -41px 82px #866666;
+    padding: 20px;
+    margin: 20px;
+}
+
+.abtme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+    padding: 20px;
+    border-radius: 20px;
+    background: #544040;
+    box-shadow: 41px 41px 82px #221a1a, -41px -41px 82px #866666;
+    margin: 20px;
+}
+.assignmentsMe{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Align items vertically */
+    padding: 20px;
+    border-radius: 20px;
+    background: #544040;
+    box-shadow: 41px 41px 82px #221a1a, -41px -41px 82px #866666;
+    margin: 20px;
+}
+.articleAssignments{
+    padding: 20px;
+    border-radius: 20px;
+    background: #544040;
+    box-shadow: 41px 41px 82px #221a1a, -41px -41px 82px #866666;
+    margin: 20px;;
+}
