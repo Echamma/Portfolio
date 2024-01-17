@@ -21,7 +21,7 @@ Join me on this expedition through education, technology, and a sprinkle of fun 
 include_once 'head.php';
 ?>
 
-<article class="abtme">
+<main class="abtme">
     <img src="pexels-jo-kassis-5054982.jpg" alt="" style="width: 250px; height: 400px;">
 
     <article class="paragraphs">
@@ -32,7 +32,7 @@ include_once 'head.php';
         }
         ?>
     </article>
-</article>
+    </main>
 <?php
 include_once "footer.php";
 ?>

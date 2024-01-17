@@ -5,7 +5,7 @@ $assignments = ['Assignment1' => ['Questions'=>['Q1: Why are you taking this cla
 include_once 'head.php';
 ?>
 
-<article class="assignmentsMe">
+<main class="assignmentsMe">
     <article class="articleAssignments">
         <?php
         foreach ($assignments as $assignmentName => $assignmentDetails) {
@@ -18,7 +18,7 @@ include_once 'head.php';
         }
         ?>
     </article>
-</article>
+</main>
 <?php
 include_once "footer.php";
 ?>
