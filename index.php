@@ -32,7 +32,7 @@ include_once 'head.php';
         }
         ?>
     </article>
-    </main>
+</main>
 <?php
 include_once "footer.php";
 ?>
