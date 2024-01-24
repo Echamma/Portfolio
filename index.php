@@ -18,7 +18,7 @@ My educational voyage began at Oakland Community College, where I earned my Asso
 Join me on this expedition through education, technology, and a sprinkle of fun facts about yours truly!'
 ];
 
-include_once 'head.php';
+include_once 'header.php';
 ?>
 
 <main class="abtme">

@@ -1,5 +1,6 @@
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Consolas&display=swap">
+<?php 
+include_once("head.view.php");
+?>
 
 <header>
     <title><?php echo $title?></title>
