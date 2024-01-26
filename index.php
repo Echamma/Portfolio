@@ -35,8 +35,10 @@ $data = [
 
 include_once(ABS_ROOT . "/src/views/header.php");
 
+
+
 ?>
-<link rel="stylesheet" href="homePageStyling.css">
+
 <main>
 <?php foreach($data as $project){
         ?>
