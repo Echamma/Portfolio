@@ -74,7 +74,6 @@ article p{
 article
 {
     overflow: hidden;
-
     background: linear-gradient(145deg, var(--articlebg), var(--articlebg));
     border-radius: 71px;
     box-shadow:  25px 25px 20px var(--articlebg),
