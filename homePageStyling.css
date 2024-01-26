@@ -57,6 +57,7 @@ article img {
     width: 20rem;
 }
 article h2{
+    font-size: 2rem;
     padding-bottom: 2rem;
     background-color: var(--articlebg);
     overflow: hidden;
@@ -66,7 +67,9 @@ article div{
 }
 article p{
     background-color: var(--articlebg);
-    justify-content: ;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.2rem;
 }
 article
 {
