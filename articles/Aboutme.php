@@ -1,5 +1,9 @@
 <?php
 $title = 'About Me';
+$config = parse_ini_file('../config.ini', true);
+$environment = $config['ENVIROMENT'];
+$URL_BASE = $config[$environment]['URL_ROOT'];
+define('APP_ROOT' ,$config[$environment]['APP_ROOT']);
 
 // Split the description into three paragraphs
 $paragraphs = [
@@ -18,8 +22,9 @@ My educational voyage began at Oakland Community College, where I earned my Asso
 Join me on this expedition through education, technology, and a sprinkle of fun facts about yours truly!'
 ];
 
-include_once 'header.php';
+include_once(APP_ROOT . "/src/views/header.php");
 ?>
+
 <link rel="stylesheet" href="style.css">
 
 <main class="abtme">

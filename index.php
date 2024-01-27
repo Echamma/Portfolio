@@ -1,8 +1,10 @@
 <?php
 $title = "HOME";
-define('URL_ROOT', 'http://localhost:3000');
-define('ABS_ROOT', __DIR__);
 
+$config = parse_ini_file('config.ini', true);
+$environment = $config['ENVIROMENT'];
+$URL_BASE = $config[$environment]['URL_ROOT'];
+define('APP_ROOT' ,$config[$environment]['APP_ROOT']);
 
 $data = [
     "Projects"=> 
@@ -33,10 +35,12 @@ $data = [
 ];
 
 
-include_once(ABS_ROOT . "/src/views/header.php");
+include_once(APP_ROOT . "/src/views/header.php");
+
+
 
 ?>
-<link rel="stylesheet" href="homePageStyling.css">
+
 <main>
 <?php foreach($data as $project){
         ?>
@@ -44,7 +48,7 @@ include_once(ABS_ROOT . "/src/views/header.php");
     
         
         
-        <a href = <?php echo $project["link"]?>> <img src= <?php echo URL_ROOT . $project["Img"]?> alt=""> </a> 
+        <a href = <?php echo $project["link"]?>> <img src= <?php echo $URL_BASE . $project["Img"]?> alt=""> </a> 
     
         <div>
         <h2><?php echo $project["title"]?></h2>
