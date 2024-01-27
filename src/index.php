@@ -1,3 +1,3 @@
 <?php
-die()
-?>
+echo "LEAVE WEAKLING";
+die();
