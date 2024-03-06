@@ -6,7 +6,7 @@ $URL_BASE = $config[$environment]['URL_ROOT'];
 define('APP_ROOT' ,$config[$environment]['APP_ROOT']);
 $assignments = ['Assignment1' => ['Questions'=>['Q1: Why are you taking this class?','Q2: What do you want to take away from this class?'], 'Answers' => ['A1: I need credits to graduate','A2: Use GitHub API to automatically link to my website']]];
 
-include_once('D:\CS3270\PortfolioPage\Portfolio\src\views\header.php');
+include_once(APP_ROOT . '/src/views/header.php');
 ?>
 
 <main>
