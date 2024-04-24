@@ -1,0 +1,29 @@
+:root{
+    --background: #022B3A;
+    --icon-width: 3rem;
+    --icon-length: 3rem;
+    --navcolor: #ff7e6b;
+    --textcolor: #fffafb;
+    --divcolor: #7f7eff;
+    --bordercolor: #2A7F62;
+}
+*{
+    background-color: var(--background);
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.basic{
+    
+    color:var(--textcolor);
+    background-color: var(--divcolor);
+    border-color: var(--bordercolor);
+    width:12rem;
+    height: 12rem;
+    border-radius: 50px;
+    background: linear-gradient(145deg);
+    box-shadow:  10px 10px 30px var(--navcolor),
+                 -10px -10px 30px var(--divcolor);
+    
+}
