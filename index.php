@@ -15,11 +15,14 @@ $_SESSION['login'] = false;
 ?>
 
 <form method="POST">
-    <div class = "basic" id = "typeWriter">
+    <div>
     <?php
-    if($_SESSION['login'] ==false)
+    if($_SESSION['login'] ==true)
     {
-        echo '<p>' . (string)$db->get_description('home_description')[0]['decription'] . '</p>' . PHP_EOL;
+        echo "<h2 class = 'Underline'>About</h2>";
+        echo '<p>' . (string)$db->get_description('about_me')[0]['decription'] . '</p>' . PHP_EOL;
+        echo "<h2 class = 'Underline'>Experience</h2>";
+        echo '<p>' . (string)$db->get_description('experience')[0]['decription'] . '</p>' . PHP_EOL;
     }
     else
     {
@@ -27,6 +30,14 @@ $_SESSION['login'] = false;
         echo '<input type="submit" />';
     }
     ?>
+    <ul>
+        <li><img src="<?= $url . 'media/'?>"></li>
+        <li><img src="<?= $url . 'media/'?>"></li>
+        <li><img src="<?= $url . 'media/'?>"></li>
+        <li><img src="<?= $url . 'media/'?>"></li>
+        <li><img src="<?= $url . 'media/'?>"></li>
+        <li><img src="<?= $url . 'media/'?>"></li>
+    </ul>
     </div>
 
 </form>

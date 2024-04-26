@@ -24,6 +24,5 @@ if(isset($_POST['desc_edit'])) {
         echo '<input type = "text" name = "desc_edit">' . $db->get_description('about_me')[0]['decription'] . '</input>'. PHP_EOL;
         echo '<input type="submit" />';
     }
-
-    ?>
+?>
 </form>
