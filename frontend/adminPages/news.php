@@ -7,7 +7,7 @@ $app = $con[$env]['APP'];
 $title = "News";
 include_once $app . "/frontend/views/head.view.php";
 include_once $app . "/backend/dbHelper.php";
-$apikey = '37563b40ef2b3cc79d687c33e1e483ec';
+$apikey = '';
 $url = "https://gnews.io/api/v4/search?q=example&lang=en&country=us&max=10&apikey=$apikey";
 
 $ch = curl_init();
