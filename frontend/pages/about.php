@@ -33,7 +33,12 @@ include_once $app . "/backend/dbHelper.php";
     </div>
 </p>
 </article>
-
+<article class="description correctMargin">
+    <h2 class="underLine">Education</h2>
+      <p class="hidden show">Senior At BemidjiState University </p>
+        <p class="hidden show">Associates Degree in Arts from Oakland Community College
+        </p>
+</article>
 <article class = "description correctMargin">
         <h2 class = "underLine">Skills</h2>
         <ul class = "hidden">
